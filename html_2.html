@@ -43,85 +43,6 @@
             </ol>
         </li>
     </ul>
-    <h2>Nested Table</h2>
-    <table border="1" align="center">
-        <caption>Table</caption>
-        <thead>
-            <th>S.No.</th>
-            <th>Name</th>
-            <th>Subjects</th>
-            <th>Result</th>
-        </thead>
-        <tr>
-            <td>1</td>
-            <td>Shivam</td>
-            <td>
-                <table border="1" style="margin: 20px;">
-                    <tr>
-                        <th>Maths</th>
-                        <th>Science</th>
-                    </tr>
-                    <tr>
-                        <td>89</td>
-                        <td>88</td>
-                    </tr>
-                </table>
-            </td>
-            <td>Pass</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Neeraj</td>
-            <td>
-                <table border="1" style="margin: 20px;">
-                    <tr>
-                        <th>Maths</th>
-                        <th>Science</th>
-                    </tr>
-                    <tr>
-                        <td>94</td>
-                        <td>90</td>
-                    </tr>
-                </table>
-            </td>
-            <td>Pass</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Ritesh</td>
-            <td>
-                <table border="1" style="margin: 20px;">
-                    <tr>
-                        <th>Maths</th>
-                        <th>Science</th>
-                    </tr>
-                    <tr>
-                        <td>93</td>
-                        <td>86</td>
-                    </tr>
-                </table>
-            </td>
-            <td>Pass</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Uttam</td>
-            <td>
-                <table border="1" style="margin: 20px;">
-                    <tr>
-                        <th>Maths</th>
-                        <th>Science</th>
-                    </tr>
-                    <tr>
-                        <td>77</td>
-                        <td>65</td>
-                    </tr>
-                </table>
-            </td>
-            <td>Pass</td>
-        </tr>
-    </table>
-    <br>
     <form>
      <fieldset>
         <legend>Fill Form</legend>
@@ -133,6 +54,24 @@
         <input type="password" value="pass" class="pass"><br>
         <input type="submit" value="Submit">
      </fieldset>  
+    </form>
+    <hr>
+    <form>
+        <table>
+            <tr>
+                <td>Name: <input type="text" value="name" class="name">
+                </td>
+            </tr>
+            <tr>
+                <td>Mobile No.: <input type="tel" value="00000" class="phone"></td>
+            </tr>
+            <tr>
+                <td>Password: <input type="password" name="pass" value="pass"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
     </form>
     </body>
     </html>
